@@ -91,7 +91,7 @@ document.querySelector(".btn-hold").addEventListener("click",function(){
     
     if (scores[activePlayer] >= 20){
         isGameOver = true;
-        document.getElementById("name-" + activePlayer).textContent = "WINER";
+        document.getElementById("name-" + activePlayer).textContent = "WIner";
 
     }else{
      
